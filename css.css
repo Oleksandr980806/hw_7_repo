@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.projects-container {
+    width: 280px;
+    height: 278px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.search-bar {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 15px;
+    padding: 10px;
+}
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    color: #666666;
+}
+.projects-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.project-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.project-item:hover {
+    background: #f4f4f4;
+}
+.project-item.selected {
+    background: #e8f8e8;
+}
+.project-item img {
+    margin-right: 14px;
+    color: #999999;
+}
+.checkmark{
+    color: #28a745;
+    padding-left: 70px;
+}
+.project-name {
+    font-size: 15px;
+    color: #333333;
+}
+.projects{
+    font-size: 15px;
+    font-weight: 600;
+}
